@@ -1,2 +1,2 @@
-# christmas-challenges-
+# Christmas Challenges
 Advent of Code
