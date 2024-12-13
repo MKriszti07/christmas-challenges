@@ -1,7 +1,8 @@
 ﻿using ChristmasChallenges.In2024.Days.DayOne;
+using ChristmasChallenges.In2024.Days.DayTwo;
 
 Console.WriteLine("Welcome to the 2024 Christmas Code Challenge!");
-Console.WriteLine("Select the day! (DayOne_PartOne, DayOne_PartTwo, etc...)");
+Console.WriteLine("Select the day! (DayOne, DayTwo, etc...)");
 
 var day = Console.ReadLine();
 
@@ -9,9 +10,11 @@ switch (day)
 {
     case "DayOne_PartOne":
         DayOne.PartOne();
-        break;
-    case "DayOne_PartTwo":
         DayOne.PartTwo();
+        break;
+    case "DayTwo":
+        DayTwo.PartOne();
+        DayTwo.PartTwo();
         break;
     default:
         break;
